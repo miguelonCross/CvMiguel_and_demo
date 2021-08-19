@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Miguel Cruz CV</title>
+    <!-- Google Font -->
+    <link href='{{ asset('http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800')}}' rel='stylesheet' type='text/css'>
+    <link href='{{ asset('http://fonts.googleapis.com/css?family=Montserrat:400,700')}}' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome -->
+
+
+    <link rel="stylesheet" href="{{ asset('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')}}">
+
+    <!-- Preloader -->
+    <link rel="stylesheet" href="{{ asset('css/preloader.css')}}" type="text/css" media="screen, print"/>
+
+    <!-- Icon Font-->
+    <link rel="stylesheet" href="{{ asset('style.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.css')}}">
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="{{ asset('"css/animate.css') }}">
+
+    <!-- Bootstrap -->
+    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
+
+
+
+    <!-- Style -->
+    <link href="{{ asset('css/style.css')}}" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="{{ asset('css/responsive.css')}}" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="{{ asset('js/lte-ie7.js')}}"></script>
+    <script src="{{ asset('https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js') }}"></script>
+    <script src="{{ asset('https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js') }}"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+<header id="HOME" style="background-position: 50% -125px;">
+    <div class="section_overlay">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><h2>Miguel Cruz</h2></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#HOME">Inicio</a></li>
+                        <li><a href="#INTERESTING">Intereses</a></li>
+                        <li><a href="#ABOUT">Sobre Mi</a></li>
+                        <li><a href="#WORK">Demo</a></li>
+                        <li><a href="#CONTACT">Contacto</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="home_text wow fadeInUp animated">
+                        <h2>Miguel Cruz Garrido</h2>
+                        <p>Tecnico especialista en desarrollo web</p>
+                        <p>Programador Junior</p>
+                        <img src="{{ asset('images/shape.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="scroll_down">
+                        <a href="#INTERESTING"><img src="{{ asset('images/scroll.png') }}" alt=""></a>
+                        <h4>Deslizate hacia abajo</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</header>
+
+
+<section class="services" id="INTERESTING">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="about_title">
+                    <h2>Intereses</h2>
+                    <img src="{{ asset('images/shape.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="1s">
+                    <img src="{{ asset('https://img.icons8.com/windows/50/000000/symfony.png') }}"/>
+                    <h2>Symfony</h2>
+                    <p>Debido a que es uno de los frameworks más pontentes de php y perfecto para grandes y complejos proyectos</p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="2s">
+                    <img src="{{ asset('https://img.icons8.com/windows/50/000000/vuejs.png') }}"/>
+                    <h2>Vue Js</h2>
+                    <p>Uno de los frameworks frontEnd más intuitivo y novedoso actualmente.</p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="3s">
+                    <img src="{{ asset('https://img.icons8.com/windows/50/000000/nodejs.png') }}"/>
+                    <h2>Node Js</h2>
+                    <p>Otra forma de trabajar en backEnd sin usar el lenguaje PHP. Tiene un gran variedad de frameworks entre ellos Foal Ts y Adonis.</p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="4s">
+                    <img src="{{ asset('https://img.icons8.com/ios/50/000000/javascript--v2.png') }}"/>
+                    <h2>JavaScript</h2>
+                    <p>Lenguaje frontEnd por excelencia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about_us_area" id="ABOUT">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="about_title">
+                    <h2>Sobre mi</h2>
+                    <img src="{{ asset('images/shape.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2>Experiencia</h2>
+            <div class="col-md-6  wow fadeInRight animated">
+                <h3>Programador Junior</h3>
+                <p class="about_us_p">
+                    Desarrollo de aplicaciones web mediante distintos lenguajes y frameworks. Con Symfony he desarrollado aplicaciones con paneles de administración:
+
+                <ul>SONATA ADMIN</ul>
+                <ul>EASYADMIN</ul>
+
+                Además del desarrollo de API REST FULL:
+
+                <ul>API-PLATFORM</ul>
+                <ul>SERIALIZERS</ul>
+
+                Con Node Js he desarrollado pequeñas aplicaciones web con panel de administración:
+
+                <ul>EXPRESS</ul>
+                <ul>ADONIS</ul>
+                <ul>FOAL TS</ul>
+                </p>
+
+            </div>
+            <div class="col-md-6  wow fadeInRight animated">
+                <h3>Ayudante de tráfico</h3>
+                <p class="about_us_p">
+                    Narval logística frigorífica <br>
+                    Gestionar vehículos de reparto, solucionar incidencias, facturar productos y funciones de administración en general.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Titulación</h2>
+            <div class="col-md-4  wow fadeInRight animated">
+                <p class="about_us_p">
+                <h3>Grado Superior Desarrollo de aplicaciones web.</h3> <br>
+                I.E.S Aguadulce 2020 - Actualmente
+
+                </p>
+            </div>
+            <div class="col-md-4  wow fadeInRight animated">
+                <p class="about_us_p">
+                <h3>Grado Superior Gestión comercial y marketing.</h3><br>
+                I.E.S Cástulo 2014 - 2016
+                </p>
+            </div>
+            <div class="col-md-4  wow fadeInRight animated">
+                <p class="about_us_p">
+                <h3>Grado Superior Transporte y logística.</h3> <br>
+                I.E.S El Tablero 2017 - 2020
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="work_area" id="WORK">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="work_title  wow fadeInUp animated">
+                    <h1>Visita mi demo</h1>
+                    <img src="{{ asset('images/shape.png') }}" alt="">
+                    <p>A continuacion podrás ver una demo de un panel de administración realizado con Symfony.<br>Para ello he usado el bundle easyAdmin.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 no_padding">
+                <div class="single_image">
+                    <img src="images/w1.jpg" alt="">
+                    <div class="image_overlay">
+                        <a href="">View Full Project</a>
+                        <h2>drawing</h2>
+                        <h4>with pencil colors</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 no_padding">
+                <div class="single_image">
+                    <img src="{{ asset('images/w2.jpg') }}" alt="">
+                    <div class="image_overlay">
+                        <a href="">View Full Project</a>
+                        <h2>drawing</h2>
+                        <h4>with pencil colors</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 no_padding">
+                <div class="single_image">
+                    <img src="{{ asset('images/w3.jpg') }}" alt="">
+                    <div class="image_overlay">
+                        <a href="">View Full Project</a>
+                        <h2>drawing</h2>
+                        <h4>with pencil colors</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pad_top">
+            <div class="col-md-4 no_padding">
+                <div class="single_image">
+                    <img src="{{ asset('images/w4.jpg') }}" alt="">
+                    <div class="image_overlay">
+                        <a href="">View Full Project</a>
+                        <h2>drawing</h2>
+                        <h4>with pencil colors</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 no_padding">
+                <div class="single_image">
+                    <img src="{{ asset('images/w5.jpg') }}" alt="">
+                    <div class="image_overlay">
+                        <a href="">View Full Project</a>
+                        <h2>drawing</h2>
+                        <h4>with pencil colors</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 no_padding">
+                <div class="single_image last_padding">
+                    <img src="{{ asset('images/w6.jpg') }}" alt="">
+                    <div class="image_overlay">
+                        <a href="">View Full Project</a>
+                        <h2>drawing</h2>
+                        <h4>with pencil colors</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="call_to_action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 wow fadeInLeft animated">
+                <div class="left">
+                    <h2>¿Te ha gustado la demo?</h2>
+                    <p>Espero que tanto como a mí el desarrollarla. Como habrás leído no he finalizado aún la titulación pero el autoaprendizaje y el esfuerzo que le dedico a diario dan sus frutos.</p>
+                </div>
+            </div>
+        </div>
+</section>
+<section class="contact" id="CONTACT">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="contact_title  wow fadeInUp animated">
+                    <h1>Contacta conmigo</h1>
+                    <img src="{{ asset('images/shape.png') }}" alt="">
+                    <p>Estoy seguro de que puedo formar parte de tu equipo. Ponte en contacto conmigo si lo deseas, estoy esperando tu mensaje.<br> Gracias por visitar mi web.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12  wow fadeInLeft animated">
+                <div class="single_contact_info">
+                    <h2>Email</h2>
+                    <p>mgarridocruz@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="work-with   wow fadeInUp animated">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center   wow fadeInUp animated">
+                    <div class="social">
+                        <h2>Un poco más de mí</h2>
+                        <ul class="icon_list">
+                            <li><a href="https://www.facebook.com/miguel.cgarrido"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/miguel-cruz-garrido-52105bb7/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/oleacode"><i class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="copyright_text   wow fadeInUp animated">
+                        <p>&copy; brandy 2015.All Right Reserved By <a href="http://www.themeforest.net/user/thecodecafe"target="_blank">Code Cafe Team</a></p>
+                        <p>Made with love for creative people.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========================
+     SCRIPTS
+============================== -->
+
+
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/jquery.nicescroll.js') }}"></script>
+<script src="{{ asset('js/owl.carousel.js') }}"></script>
+<script src="{{ asset('js/wow.js') }}"></script>
+<script src="{{ asset('js/script.js') }}"></script>
+
+
+
+
+</body>
+
+</html>

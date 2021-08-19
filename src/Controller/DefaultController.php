@@ -21,6 +21,14 @@ class DefaultController extends AbstractController
     }
 
     /**
+     * @Route("/cv", name="cv_default")
+     */
+    public function cv(): Response
+    {
+        return $this->render('cv.html.twig');
+    }
+
+    /**
      * @Route("/", name="api_default", host="demo.oleacode.com")
      */
     public function apiIndex(): Response
