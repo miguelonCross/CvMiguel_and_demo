@@ -7,7 +7,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -162,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
@@ -190,7 +190,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629363827282</updated>
-      <workItem from="1629363828385" duration="5110000" />
+      <workItem from="1629363828385" duration="5736000" />
+      <workItem from="1629447651521" duration="5196000" />
+      <workItem from="1629452958077" duration="3048000" />
     </task>
     <servers />
   </component>
@@ -202,9 +204,21 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2640" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629366362095" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1629452925896">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629452925896" />
     <state x="2381" y="162" key="SettingsEditor" timestamp="1629366287063">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629366287063" />
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1629447658014">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629447658014" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1629454535703">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629454535703" />
   </component>
 </project>
