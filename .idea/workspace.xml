@@ -166,12 +166,13 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\public" />
       <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\templates\cover_page" />
+      <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -193,6 +194,7 @@
       <workItem from="1629363828385" duration="5736000" />
       <workItem from="1629447651521" duration="5196000" />
       <workItem from="1629452958077" duration="3048000" />
+      <workItem from="1629807550183" duration="3261000" />
     </task>
     <servers />
   </component>
