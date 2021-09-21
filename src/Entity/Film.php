@@ -60,7 +60,7 @@ class Film
     private $director;
 
     /**
-     * @ORM\Column(type="array", nullable=true)
+     * @ORM\Column(type="json", nullable=true)
      */
     private $tags = [];
 
@@ -69,14 +69,26 @@ class Film
      */
     private $reviews;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=false)
+     */
+    private $poster;
+
     public function ratingCalculate(){
-        $reviewCounter = 0;
-        $rating = 0;
-        foreach ($this->getReviews() as $review){
-            $reviewCounter ++;
-            $rating += $review->getRating();
+        if(count($this->getReviews()) === 0){
+            $this->rating = 0;
         }
-        return $this->rating = $rating / $reviewCounter;
+        else{
+            $reviewCounter = 0;
+            $rating = 0;
+            foreach ($this->getReviews() as $review){
+                $reviewCounter ++;
+                $rating += $review->getRating();
+            }
+            $this->rating = $rating / $reviewCounter;
+        }
+
+        return $this->rating;
     }
 
     public function __construct()
@@ -142,6 +154,11 @@ class Film
         $this->playingTime = $playingTime;
 
         return $this;
+    }
+
+    public function getPlayingTime()
+    {
+        return $this->playingTime;
     }
 
     public function getIsReleased(): ?bool
@@ -218,6 +235,18 @@ class Film
                 $review->setFilm(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getPoster(): ?string
+    {
+        return $this->poster;
+    }
+
+    public function setPoster(?string $poster): self
+    {
+        $this->poster = $poster;
 
         return $this;
     }

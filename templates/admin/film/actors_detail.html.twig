@@ -1,0 +1,14 @@
+
+
+<div class="row" style="width: 100%">
+{% for actor in entity.instance.actors %}
+    <div class="col-sm-3 mb-2 text-center" style="width: 5cm">
+        <div class="card">
+            <img style="" class="img-thumbnail" src="{{ actor.photoUrl }}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{ actor.name }}</h5>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+</div>

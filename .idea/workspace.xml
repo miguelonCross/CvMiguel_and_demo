@@ -13,6 +13,25 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="data" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -163,16 +182,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\public" />
-      <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\public\images" />
       <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\templates\cover_page" />
       <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\public\fonts" />
+      <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\public\images" />
+      <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\public\js" />
+      <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\public\css" />
+      <recent name="C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -195,6 +218,39 @@
       <workItem from="1629447651521" duration="5196000" />
       <workItem from="1629452958077" duration="3048000" />
       <workItem from="1629807550183" duration="3261000" />
+      <workItem from="1629893450729" duration="302000" />
+      <workItem from="1629894063775" duration="750000" />
+      <workItem from="1629977177668" duration="3845000" />
+      <workItem from="1630186388710" duration="77000" />
+      <workItem from="1630235737920" duration="2902000" />
+      <workItem from="1630249747038" duration="2761000" />
+      <workItem from="1630312592092" duration="2213000" />
+      <workItem from="1630315675848" duration="5072000" />
+      <workItem from="1630324821041" duration="1872000" />
+      <workItem from="1630396829871" duration="137000" />
+      <workItem from="1630397393880" duration="996000" />
+      <workItem from="1630509417920" duration="4512000" />
+      <workItem from="1630594625013" duration="1733000" />
+      <workItem from="1630691330086" duration="2000" />
+      <workItem from="1630696044782" duration="34000" />
+      <workItem from="1630746475777" duration="3760000" />
+      <workItem from="1630831758699" duration="1269000" />
+      <workItem from="1630940747594" duration="5519000" />
+      <workItem from="1631030601379" duration="5481000" />
+      <workItem from="1631115184925" duration="6016000" />
+      <workItem from="1631205011813" duration="919000" />
+      <workItem from="1631385424633" duration="1426000" />
+      <workItem from="1631433621421" duration="9000" />
+      <workItem from="1631433727375" duration="27000" />
+      <workItem from="1631433907021" duration="6496000" />
+      <workItem from="1631449914287" duration="88000" />
+      <workItem from="1631473517911" duration="1651000" />
+      <workItem from="1631475191664" duration="382000" />
+      <workItem from="1631544622070" duration="6107000" />
+      <workItem from="1631634636245" duration="3975000" />
+      <workItem from="1631722345641" duration="2622000" />
+      <workItem from="1631726828283" duration="5000" />
+      <workItem from="1631728369340" duration="1187000" />
     </task>
     <servers />
   </component>
@@ -202,25 +258,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2640" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629366362095">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="720" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631549949111">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="720" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631549949111" />
     <state x="2640" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629366362095" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1629452925896">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1630596016295">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630596016295" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1630326044063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1630326044063" />
     <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629452925896" />
-    <state x="2381" y="162" key="SettingsEditor" timestamp="1629366287063">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1631443387735">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631443387735" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1631475184165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631475184165" />
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629366287063" />
-    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1629447658014">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1631449923906">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631449923906" />
     <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629447658014" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1629454535703">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="619" y="139" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1631120994221">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="619" y="139" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631120994221" />
+    <state x="656" y="118" width="737" height="804" key="find.popup" timestamp="1631545983111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="118" width="737" height="804" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631545983111" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1631030986262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631030986262" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1631473581696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1631473581696" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629454535703" />
   </component>
 </project>
