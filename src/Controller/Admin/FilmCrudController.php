@@ -31,13 +31,10 @@ class FilmCrudController extends AbstractCrudController
         return parent::configureActions(
             $actions
                 ->setPermission(Action::EDIT, "ROLE_ADMIN"))
-                ->setPermission(Action::DELETE, "ROLE_ADMIN")
                 ->update(Crud::PAGE_INDEX, Action::EDIT, function (Action $action){
                     return $action->setLabel('Editar');
                 })
-                ->update(Crud::PAGE_INDEX, Action::DELETE, function (Action $action){
-                    return $action->setLabel('Eliminar');
-                })
+                ->disable(Action::DELETE)
                 ->add(Crud::PAGE_INDEX, Action::DETAIL)
                 ->update(Crud::PAGE_INDEX, Action::DETAIL, function (Action $action){
                     return $action->setLabel('Detalle');
