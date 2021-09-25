@@ -42,6 +42,14 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
@@ -97,7 +105,7 @@
                 <div class="col-md-12 text-center">
                     <div class="scroll_down">
                         <a href="#INTERESTING"><img src="{{ asset('images/scroll.png') }}" alt=""></a>
-                        <h4>Deslizate hacia abajo</h4>
+                        <h4>Desliza hacia abajo</h4>
                     </div>
                 </div>
             </div>
@@ -105,50 +113,6 @@
     </div>
     </section>
 </header>
-
-
-<section class="services" id="INTERESTING">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="about_title">
-                    <h2>Intereses</h2>
-                    <img src="{{ asset('images/shape.png') }}" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="1s">
-                    <img src="{{ asset('https://img.icons8.com/windows/50/000000/symfony.png') }}"/>
-                    <h2>Symfony</h2>
-                    <p>Debido a que es uno de los frameworks más pontentes de php y perfecto para grandes y complejos proyectos</p>
-                </div>
-            </div>
-            <div class="col-md-3 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="2s">
-                    <img src="{{ asset('https://img.icons8.com/windows/50/000000/vuejs.png') }}"/>
-                    <h2>Vue Js</h2>
-                    <p>Uno de los frameworks frontEnd más intuitivo y novedoso actualmente.</p>
-                </div>
-            </div>
-            <div class="col-md-3 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="3s">
-                    <img src="{{ asset('https://img.icons8.com/windows/50/000000/nodejs.png') }}"/>
-                    <h2>Node Js</h2>
-                    <p>Otra forma de trabajar en backEnd sin usar el lenguaje PHP. Tiene un gran variedad de frameworks entre ellos Foal Ts y Adonis.</p>
-                </div>
-            </div>
-            <div class="col-md-3 text-center">
-                <div class="single_service wow fadeInUp" data-wow-delay="4s">
-                    <img src="{{ asset('https://img.icons8.com/ios/50/000000/javascript--v2.png') }}"/>
-                    <h2>JavaScript</h2>
-                    <p>Lenguaje frontEnd por excelencia.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <section class="about_us_area" id="ABOUT">
     <div class="container">
         <div class="row">
@@ -158,6 +122,12 @@
                     <img src="{{ asset('images/shape.png') }}" alt="">
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <p class="about_us_p">Mi nombre es Miguel Cruz Garrido, actualmente resido en Jaén y trabajo en el transporte de mercancía con temperatura controlada y a su vez estudio el FP Superior de desarrollo de aplicaciones web.</p>
+            <p class="about_us_p">En este ultimo año y dedico gran parte de mi tiempo libre a programar y crear proyectos como al que podréis acceder un poco más abajo.</p>
         </div>
     </div>
     <div class="container">
@@ -216,30 +186,64 @@
         </div>
     </div>
 </section>
-<section class="work_area" id="WORK">
+
+<section class="services" id="INTERESTING">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <div class="work_title  wow fadeInUp animated">
-                    <h1>Visita mi demo</h1>
+                <div class="about_title">
+                    <h2>Intereses</h2>
                     <img src="{{ asset('images/shape.png') }}" alt="">
-                    <p>A continuación podrás ver una demo de un panel de administración realizado con Symfony.<br>Para ello he usado el bundle easyAdmin.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="1s">
+                    <img src="{{ asset('https://img.icons8.com/windows/50/000000/symfony.png') }}"/>
+                    <h2>Symfony</h2>
+                    <p>Debido a que es uno de los frameworks más pontentes de php y perfecto para grandes y complejos proyectos</p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="2s">
+                    <img src="{{ asset('https://img.icons8.com/windows/50/000000/vuejs.png') }}"/>
+                    <h2>Vue Js</h2>
+                    <p>Uno de los frameworks frontEnd más intuitivo y novedoso actualmente.</p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="3s">
+                    <img src="{{ asset('https://img.icons8.com/windows/50/000000/nodejs.png') }}"/>
+                    <h2>Node Js</h2>
+                    <p>Otra forma de trabajar en backEnd sin usar el lenguaje PHP. Tiene un gran variedad de frameworks entre ellos Foal Ts y Adonis.</p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="single_service wow fadeInUp" data-wow-delay="4s">
+                    <img src="{{ asset('https://img.icons8.com/ios/50/000000/javascript--v2.png') }}"/>
+                    <h2>JavaScript</h2>
+                    <p>Lenguaje frontEnd por excelencia.</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row pad_top">
-            <div class="col-md no_padding">
-                <div class="single_image">
-                    <img src="{{ asset('images/w4.jpg') }}" alt="">
-                    <div class="image_overlay">
-                        <a href="/admin">Acceso a la demo</a>
+</section>
+
+<section class="work_area" id="WORK">
+    <a href="/admin">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="work_title  wow fadeInUp animated">
+                        <h1>Visita mi demo</h1>
+                        <img src="{{ asset('images/shape.png') }}"alt="">
+                        <p>A continuación podrás ver una demo de un panel de administración realizado con Symfony.<br>Para ello he usado el bundle easyAdmin.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </a>
 </section>
 <section class="call_to_action">
     <div class="container">
