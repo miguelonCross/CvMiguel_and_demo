@@ -19,14 +19,12 @@ use Symfony\Component\Routing\Annotation\Route;
 /**
  * Class DashboardController
  * @package App\Controller\Admin
- * @IsGranted("ROLE_USER")
  */
 class DashboardController extends AbstractDashboardController
 {
 
     /**
      * @Route("/admin", name="admin")
-     * @IsGranted("ROLE_USER")
      */
     public function index(): Response
     {

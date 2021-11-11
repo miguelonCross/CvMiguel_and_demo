@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\mejor\OneDrive\Documents\GitHub\CvMiguel_and_demo\var\data.db</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="data [2]" uuid="e2cb309e-e7ec-4a00-a128-64faa6f94fb3">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:N:\cvMiguel-dev\var\data.db</jdbc-url>
+    </data-source>
   </component>
 </project>
